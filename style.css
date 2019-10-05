@@ -1,0 +1,161 @@
+body {
+  font-family: 'Exo 2', sans-serif;
+}
+
+
+
+.grid {
+  border: solid white 2px;
+  display: inline-block;
+  padding: 10px;
+   width: 31%;
+margin-top: 20px;
+
+}
+
+img.grid {
+  width: 200px;
+  height: 400px;
+  object-fit: cover;
+
+}
+
+footer, header {
+  color: white;
+  background-color: black;
+  font-family: 'EB Garamond', serif;
+  font-size: 1.8rem;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  border-color: white;
+
+}
+
+.flex-container .box {
+background-color: #ffda08;
+  width: 50%;
+text-align: center;
+font-weight: 600;
+letter-spacing: 1.3px;
+ line-height: 2;
+margin-top: 20px;
+margin-bottom: 15px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+h1.here {
+  padding-top: 30%;
+    font-size: 35px;
+}
+ h2 {
+     font-size: 23px;
+ }
+h3{
+   font-size: 20px;
+ }
+
+ul {
+
+	text-align: center;
+  padding: 30;
+ position: relative;
+background-color: black;
+  font-size: 16px;
+margin-top: 0;
+padding-bottom: 20px;
+}
+
+  li {
+  	display: inline;
+  	margin: 10px;
+    padding-bottom: 20px;
+    font-family: 'EB Garamond', serif;
+  }
+
+  a:link, a:visited {
+    color: white;
+    	text-decoration: none;
+  }
+
+  a:hover {
+    color: white;
+  	text-decoration: underline;
+  }
+
+  a.recip:link, a.recip:visited {
+    color: black;
+  	text-decoration: none;
+  }
+
+  a.recip:hover{
+    color:black;
+    text-decoration: underline;
+  }
+
+  .container {
+    position: relative;
+  }
+.topright {
+  position: absolute;
+ bottom: 120px;
+ right: 20px;
+ background-color: black;
+ color: white;
+ padding-left: 50px;
+ padding-right: 50px;
+ padding-top: 0px;
+ letter-spacing: 0.3px;
+  line-height: 2;
+  border: 1px solid;
+margin-left: 30px;
+    box-shadow: 5px 10px 18px #888888;
+margin-bottom: 20px;
+}
+
+._img {
+  margin-left: 50px;
+
+  box-shadow: 5px 10px 18px #888888;}
+
+  .article {
+    font-family: 'EB Garamond', serif;
+    width: 60%;
+  	margin: 0 auto;
+    font-size: 20px;
+    letter-spacing: 1.3px;
+     line-height: 1.5;
+
+  }
+
+  .spice {
+    width: 50%;
+  	margin: 0 auto;
+    text-align: center;
+
+  }
+
+ h1.w{
+    font-size: 40px;
+  }
+
+  h2.r {
+    font-size: 15px;
+  }
+
+  h3.c {
+      font-size: 10px;
+  }
+
+  h1.ww {
+    width: 50%;
+  	margin: 0 auto;
+    text-align: center;
+    font-size: 50px;
+  }
